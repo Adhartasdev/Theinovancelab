@@ -17,10 +17,10 @@
                 Phyto
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Circulation</a>
-                <a href="" class="dropdown-item">Digestion</a>
-                <a href="" class="dropdown-item">Sleep</a>
-                <a href="" class="dropdown-item">All Phyto</a>
+                <a href="{% url 'products' %}?category=circulation" class="dropdown-item">Circulation</a>
+                <a href="{% url 'products' %}?category=digestion" class="dropdown-item">Digestion</a>
+                <a href="{% url 'products' %}?category=sleep" class="dropdown-item">Sleep</a>
+                <a href="{% url 'products' %}?category=circulation,digestion,sleep" class="dropdown-item">All Phyto</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Well-Being
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Dynatone</a>
-                <a href="" class="dropdown-item">Serotone</a>
-                <a href="" class="dropdown-item">All Well-Being</a>
+                <a href="{% url 'products' %}?category=dynatone" class="dropdown-item">Dynatone</a>
+                <a href="{% url 'products' %}?category=serotone" class="dropdown-item">Serotone</a>
+                <a href="{% url 'products' %}?category=dynatone,serotone" class="dropdown-item">All Well-Being</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
