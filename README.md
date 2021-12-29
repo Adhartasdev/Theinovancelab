@@ -2,7 +2,7 @@ This project is unfinished. Find below tools and credits.
 
 Credits
 
-Coded alongside code institute project ado. 1. [GitHub-Link:](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
+Coded alongside code institute project ado.[GitHub-Link:](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
 
 
 Tools
