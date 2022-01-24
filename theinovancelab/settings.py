@@ -1,6 +1,4 @@
 import os
-import dj_database_url
-
 """
 
 Django settings for theinovancelab project.
@@ -109,16 +107,13 @@ WSGI_APPLICATION = 'theinovancelab.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#    'default': {
-#       'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#   }
-#}
-
 DATABASES = {
-    'default': dj_database_url.parse(postgres://ftsdgymnwahfwl:bb53c639815be6b21d2323077a9372953ef53070d9f55e6164db5083005507fd@ec2-54-74-95-84.eu-west-1.compute.amazonaws.com:5432/df3mhitovqbr9p)
+    'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+  }
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
