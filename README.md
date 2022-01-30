@@ -1,9 +1,11 @@
-This project is unfinished. Find below tools and credits.
+# The Inovance Lab
+
+This is a webshop for an actual supplements brand belonging to my company Ysonut. The readme still needs to be finished and the website to have more styling but all functionalities are active and nearly ready to start selling products.
 
 Credits
 
 Coded alongside code institute project ado.[GitHub-Link:](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
-
+All pictures belong to the company, and full approval has been extended to reuse them in this case. 
 
 Tools
 
