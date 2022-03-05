@@ -5,7 +5,7 @@ The Inovance Lab is an e-commerce store derived from a French Laboratory Ysonut.
 
 The current deployment has been made for functionality purposes, the store will in the future comprise 100 of products making its functionalities such as price order, categories and searching relevant. In the long term, the idea is to provide office nutritional products enabling health and boosting the productivity of employees through subsidised micro-nutrition by the employer.
 
-You can access the site here: [The Inovance Lab](theinovancelab.herokuapp.com)
+You can access the site here: theinovancelab.herokuapp.com
 
 ## Table Of Contents
 
@@ -29,11 +29,9 @@ You can access the site here: [The Inovance Lab](theinovancelab.herokuapp.com)
 
 4. [**Credits**](#credits)
 
-5. [**Content**](#content)
+5. [**Media**](#media)
 
-6. [**Media**](#media)
-
-7. [**Acknowledgements**](#acknowledgements)
+6. [**Acknowledgements**](#acknowledgements)
 
 # UX
 
@@ -293,7 +291,7 @@ Allauth templates were used throughout the site for user creation, login, logout
 
 # Deployments
 
-You can access the site here: [The Inovance Lab](theinovancelab.herokuapp.com)
+You can access the site here: theinovancelab.herokuapp.com
 
 ## Heroku
 
